@@ -81,14 +81,14 @@
                         <input id="first_name" type="text" class="form-control mb-3" placeholder="First Name">
                         <input id="last_name" type="text" class="form-control mb-3" placeholder="Last Name">
                         <input id="email" type="email" class="form-control mb-3" placeholder="Email">
-                        <input id="phone" type="text" class="form-control mb-3" placeholder="First Name">
+                        <input id="phone" type="text" class="form-control mb-3" placeholder="Phone">
                         <select name="destination" id="destination" class="form-control mb-3">
                             <option value="" selected disabled hidden>Choose your destination</option>
                             <option value="">Prague</option>
                             <option value="">Bora Bora</option>
                             <option value="">Other options from API</option>
                         </select>
-                        <button id="submit_btn" class="form-control btn btn-danger">Submit</button>
+                        <button id="submit_btn" class="form-control btn btn-danger text-white">Submit</button>
                     </form>
                 </div>
             </div>
