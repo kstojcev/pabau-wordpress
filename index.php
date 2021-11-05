@@ -12,6 +12,36 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand text-uppercase text-white" href="#">Citify</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars text-white"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      </ul>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Destinations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
     <div class="hero-section d-flex justify-content-center align-items-center">
         <div class="row">
             <div class="col-md-6">
@@ -26,7 +56,7 @@
                 <div class="col-md-12 d-flex justify-content-center where-to">
                     <div>
                         <input type="text" placeholder="Where to?">
-                        <button class="arrow-right"><i class="fas fa-arrow-right fa-2x text-white"></i></button>
+                        <button class="search_btn"><i class="fas fa-search-location fa-2x text-white"></i></button>
                     </div>
                 </div>
             </div>
@@ -77,7 +107,7 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6 py-5">
                     <h4>Reservations</h4>
-                    <form action="">
+                    <form>
                         <input id="first_name" type="text" class="form-control mb-3" placeholder="First Name">
                         <input id="last_name" type="text" class="form-control mb-3" placeholder="Last Name">
                         <input id="email" type="email" class="form-control mb-3" placeholder="Email">
@@ -90,6 +120,7 @@
                         </select>
                         <button id="submit_btn" class="form-control btn btn-danger text-white">Submit</button>
                     </form>
+                    <small id="form_notification" class="text-success"></small>
                 </div>
             </div>
         </div>
