@@ -1,7 +1,7 @@
 <?php ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_GB">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,8 +74,8 @@
                 </div>
             </div>
             
-            <div class="row">
-                <div class="col-md-6 offset-3 py-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 py-5">
                     <h4>Reservations</h4>
                     <form action="">
                         <input id="first_name" type="text" class="form-control mb-3" placeholder="First Name">
@@ -95,6 +95,30 @@
         </div>
     </div>
 
+    <div class="container-fluid bg-grey p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="https://www.mapsinternational.co.uk/pub/media/catalog/product/x/w/m/wm01164_h_canva.jpg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h3 class="fw-bold">Our Commitment to You</h3>
+                    <p>Over the years we have gained the trust of thousands and thousands of happy and loyal customers, and in Citify that is our main mission - to satisfy you as a customer.</p>
+                    <p>We’re committed to serving you through:</p>
+                    <ul>
+                        <li><b>GUIDANCE</b> with our expert insight and travel knowledge.</li>
+                        <li><b>VALUE</b> with irresistible rates, offers and benefits.</li>
+                        <li><b>PEACE</b> OF MIND to book with confidence.</li>
+                        <li><b>SERVICE</b> by being by your side before, during, and after your trip.</li>
+                    </ul>
+                    <p>Real people helping real people. Beside you every step of the way.</p>
+                    
+                    <p>Don't waste precious time, it's pretty simple pick your destination give us a call and the next thing you know you are in your favourite city.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        
     <footer class="container-fluid text-center text-white py-2 fixed-bottom">
         <div class="container d-flex justify-content-around">
             <span>

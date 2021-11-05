@@ -9,6 +9,10 @@ a {
     color: unset !important;
 }
 
+.bg-grey {
+    background-color: #EDEFF2;
+}
+
 .hero-section {
     height: 90vh;
     background: url(https://cdn.wallpapersafari.com/40/32/qLfxsV.jpg) no-repeat 50% 50%;
