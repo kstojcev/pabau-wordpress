@@ -7,6 +7,7 @@ Single page with a smooth design created for a fictional travel agency that lets
 ## Login credentials
 
 username: pabau
+<br/>
 password: poolparty1234
 
 ## Screenshot
