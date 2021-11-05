@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+    scroll-behavior: smooth;
+    font-family: "Noto Sans", sans-serif;
+}
+
+a {
+    color: unset !important;
+}
+
+.hero-section {
+    height: 90vh;
+    background: url(https://cdn.wallpapersafari.com/40/32/qLfxsV.jpg) no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.35);
+    background-blend-mode: multiply;
+}
+
+footer {
+    font-size: 14px;
+    background-color: #cd242b;
+}
+
+.where-to {
+    margin-top: -35px !important;
+}
+
+input {
+    max-width: 606px;
+    width: 100%;
+    height: 64px;
+    font-family: "lato",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 2px;
+    background-color: #222222;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+    color: #ffffff;
+    padding-left: 60px;
+    padding-right: 64px;
+    z-index: 3;
+    transition: ease all 0.3s;
+}
+
+button {
+    width: 64px;
+    height: 64px;
+    border-radius: 2px;
+    background-color: #cc242a;
+    float: right;
+    position: relative;
+    top: -64px;
+    border: 0;
+}
+
+.latest-updates img {
+    height: 300px;
+}
+
+.card-img-overlay {
+    background: rgba(0, 0, 0, 0.2);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
