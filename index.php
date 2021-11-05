@@ -26,7 +26,7 @@
                 <div class="col-md-12 d-flex justify-content-center where-to">
                     <div>
                         <input type="text" placeholder="Where to?">
-                        <button><i class="fas fa-arrow-right fa-2x text-white"></i></button>
+                        <button class="arrow-right"><i class="fas fa-arrow-right fa-2x text-white"></i></button>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                     <div class="card text-white">
                         <img src="https://wallpaperaccess.com/full/41211.jpg" class="card-img hover" alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">New destinations unlocked</h5>
+                            <h5 class="card-title">Prague added on our map</h5>
                             <hr>
                         </div>
                     </div>
@@ -67,10 +67,29 @@
                     <div class="card text-white">
                         <img src="https://wallup.net/wp-content/uploads/2016/01/192153-landscape-Bora_Bora.jpg" class="card-img hover" alt="...">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">New destinations unlocked</h5>
+                            <h5 class="card-title">Bora Bora unlocked on the travel destinations</h5>
                             <hr>
                         </div>
                     </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-6 offset-3 py-5">
+                    <h4>Reservations</h4>
+                    <form action="">
+                        <input id="first_name" type="text" class="form-control mb-3" placeholder="First Name">
+                        <input id="last_name" type="text" class="form-control mb-3" placeholder="Last Name">
+                        <input id="email" type="email" class="form-control mb-3" placeholder="Email">
+                        <input id="phone" type="text" class="form-control mb-3" placeholder="First Name">
+                        <select name="destination" id="destination" class="form-control mb-3">
+                            <option value="" selected disabled hidden>Choose your destination</option>
+                            <option value="">Prague</option>
+                            <option value="">Bora Bora</option>
+                            <option value="">Other options from API</option>
+                        </select>
+                        <button id="submit_btn" class="form-control btn btn-danger">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>

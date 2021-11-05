@@ -26,7 +26,7 @@ footer {
     margin-top: -35px !important;
 }
 
-input {
+.where-to input {
     max-width: 606px;
     width: 100%;
     height: 64px;
@@ -44,7 +44,7 @@ input {
     transition: ease all 0.3s;
 }
 
-button {
+.arrow-right {
     width: 64px;
     height: 64px;
     border-radius: 2px;
